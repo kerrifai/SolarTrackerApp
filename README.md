@@ -48,7 +48,7 @@ Ensure the following files exist in the project root and verify that filenames r
   - consumo_diario.xlsx
   - energia_generada.xlsx
 
-### 5.Run the Streamlit app
+### 5 .Run the Streamlit app
 ```bash
 streamlit run app.py
 ```
