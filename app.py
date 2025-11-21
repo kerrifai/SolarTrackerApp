@@ -9,7 +9,7 @@ import altair as alt
 # --------------------------------------------------
 st.set_page_config(page_title="📊 Modelo Energético Solar", layout="wide")
 
-st.title("📊 Modelo de Energía Solar con Batería (vinculado a tus Excels)")
+st.title("📊 Modelo de Energía Solar")
 st.markdown(
     """
 Esta aplicación hace lo siguiente de forma automática usando los archivos:
@@ -84,7 +84,7 @@ st.divider()
 # --------------------------------------------------
 # 3. Procesado de energía generada por el panel
 # --------------------------------------------------
-st.header("3️⃣ Energía generada diaria por el panel")
+st.header("3️⃣ Energía generada diaria por panel")
 
 # Comprobamos columnas esperadas
 col_fecha = "fecha"
@@ -340,7 +340,7 @@ st.altair_chart(chart_balance, use_container_width=True)
 # 7. Gráfico tipo Excel: Días sin suministro vs batería y potencia FV
 # --------------------------------------------------
 
-st.header("📉 Días sin suministro vs energía de la batería y potencia FV")
+st.header("📉 Evaluación de la autonomía del sistema en funcion de la capacidad de la batería y potencia FV")
 
 st.markdown(
     """
